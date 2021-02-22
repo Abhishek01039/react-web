@@ -1,4 +1,5 @@
 import "./App.css";
+import Api from "./components/api_component";
 import Sum from "./components/sum_component";
 import Welcome from "./components/welcome_component";
 
@@ -24,6 +25,8 @@ function App() {
       <Welcome name="hello2"></Welcome>
       <Welcome name="hello3"></Welcome>
       <Sum a="2" b="3"></Sum>
+
+      <Api></Api>
     </div>
   );
 }

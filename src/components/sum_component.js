@@ -1,5 +1,7 @@
-function Sum(props) {
-  return <p> {parseInt(props.a) + parseInt(props.b)} </p>;
+import React from "react";
+
+function Sum({ a, b }) {
+  return <p> {parseInt(a) + parseInt(b)} </p>;
 }
 
 export default Sum;
